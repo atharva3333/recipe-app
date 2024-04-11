@@ -1,6 +1,9 @@
 import HeroImage from "../assets/Cooking-cuate.png";
 import Navigation from "../components/Navigation";
+
 const HeroComponent = () => {
+
+  
   return (
     <div className="px-20 bg-green-900 pt-15">
     
@@ -20,7 +23,7 @@ const HeroComponent = () => {
         </p>
         <button className="rounded-full px-8 py-3 bg-white mt-6 text-green-900 font-bold text-lg">Discover Recipes</button>
       </div>
-      <div className="">
+      <div>
         <img src={HeroImage} className="" alt="cooking-cuate" />
       </div>
     </div>
