@@ -24,8 +24,9 @@ const Navigation = () => {
           <li className=" list-none font-bold">Recipes</li>
           {user && <>{user.displayName}</>}
           {!user && 
-            <button onClick={handleSignIn} className="font-bold bg-blue-600 text-white px-5 py-2 rounded-full">Login</button>
+            <button onClick={handleSignIn} className="font-bold bg-blue-600 text-white px-5 py-2 rounded-full z-10">Login</button>
           }
+          
           
         </div>
       </div>
