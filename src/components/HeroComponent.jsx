@@ -21,7 +21,9 @@ const HeroComponent = () => {
           featuring innovative variations on classic recipes to delight and
           satisfy your taste buds.
         </p>
-        <button className="rounded-full px-8 py-3 bg-white mt-6 text-green-900 font-bold text-lg">Discover Recipes</button>
+        <button className="rounded-full px-8 py-3 bg-white mt-6 text-green-900 font-bold text-lg">
+        <a href="/#recipes" className="list-none font-bold">Discover Recipes</a>
+        </button>
       </div>
       <div>
         <img src={HeroImage} className="" alt="cooking-cuate" />

@@ -13,7 +13,7 @@ const PopularRecipes = () => {
         "https://api.spoonacular.com/recipes/complexSearch",
         {
           params: {
-            apiKey: "8f8949c136db4acaa279e99025a16061",
+            apiKey: "f1517a22fbb04976abe3cd145cf60b2b",
             query: searchQuery,
             maxFat: 25,
             number: 6,
@@ -45,7 +45,7 @@ const PopularRecipes = () => {
   };
 
   return (
-    <div className="my-16">
+    <div id="recipes" className="my-16">
       {error && (
         <div className="bg-red-500 rounded-xl text-white p-8 fixed top-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-transform duration-300 z-10">
           <div className="flex justify-center items-center gap-6">

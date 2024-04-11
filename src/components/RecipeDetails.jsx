@@ -62,7 +62,7 @@ const RecipeDetails = () => {
           `https://api.spoonacular.com/recipes/${id}/information`,
           {
             params: {
-              apiKey: '8f8949c136db4acaa279e99025a16061',
+              apiKey: 'f1517a22fbb04976abe3cd145cf60b2b',
               includeNutrition: true,
             },
           }
