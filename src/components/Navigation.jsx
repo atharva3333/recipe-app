@@ -13,8 +13,8 @@ const Navigation = () => {
 		signInWithGoogle();
 	};
   return (
-    <div className="px-10 py-5">
-      <div className="flex justify-between bg-white items-center px-10 rounded-full">
+    <div className="sm:px-10 px-auto py-5">
+      <div className="flex justify-between bg-white items-center sm:px-10 px-4 rounded-full">
         <div className="flex items-center gap-1">
         
           <img src={Logo} alt="logo" className="w-[5%]"/>
